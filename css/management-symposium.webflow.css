@@ -490,7 +490,7 @@
 }
 
 .small-container {
-  width: 100%;
+  width: auto;
   max-width: 960px;
   grid-column-gap: 90px;
   grid-row-gap: 90px;
@@ -594,12 +594,14 @@
 }
 
 .f2wf-columns-2 {
-  width: 120%;
+  width: 750px;
+  height: 590px;
   align-items: center;
 }
 
 .vectors-wrapper {
-  width: auto;
+  width: 750px;
+  height: 590px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   -webkit-text-fill-color: inherit;
@@ -608,6 +610,8 @@
   flex: 0 auto;
   justify-content: center;
   align-items: center;
+  padding-left: 0;
+  padding-right: 0;
   display: flex;
   overflow: visible;
 }
@@ -1149,7 +1153,7 @@
 }
 
 .case-studies-stack {
-  width: 100%;
+  width: auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   outline-offset: 0px;
@@ -1205,6 +1209,10 @@
   display: flex;
 }
 
+.hero-heading-left-2.scout-top {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .container-7 {
   width: 100%;
   max-width: 1200px;
@@ -1213,6 +1221,10 @@
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.f2wf-columns-3.scout-comp-size {
+  margin-top: 68px;
 }
 
 .frame-48096264 {
@@ -1309,6 +1321,7 @@
 }
 
 .vectors-wrapper-2 {
+  max-width: none;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   object-fit: cover;
@@ -1772,7 +1785,7 @@
 }
 
 .my-health-online-auto-layout {
-  width: 1249vw;
+  width: 100vw;
   height: auto;
   max-width: none;
   grid-column-gap: 60px;
@@ -2045,7 +2058,7 @@
   width: 100%;
   height: auto;
   background-color: rgba(0, 0, 0, 0);
-  align-self: auto;
+  align-self: center;
 }
 
 .slider {
@@ -2150,11 +2163,20 @@
 }
 
 .container-10 {
-  display: block;
+  justify-content: center;
+  display: flex;
 }
 
 .slide-1 {
+  height: 370px;
   background-color: #e5f2f8;
+  background-image: url('../images/Slider-card-Vid-Visits---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  justify-content: center;
+  display: flex;
 }
 
 .div-block-2 {
@@ -2310,6 +2332,7 @@
 }
 
 .text-28 {
+  max-width: 435px;
   color: #507f70;
   font-size: 23px;
   font-weight: 400;
@@ -2550,7 +2573,7 @@
   display: flex;
 }
 
-.human-centered-design-is-an-approach-to-problem-solving-that-develops-solutions-by-involving-the-human-perspective-in-all-steps-of-the-process {
+.error-27e9bc47-6a16-e425-6951-9481f3da2308 {
   color: #54585a;
   text-align: center;
   font-size: 25px;
@@ -2847,7 +2870,7 @@
 }
 
 .image-28 {
-  max-width: 126%;
+  max-width: none;
   object-fit: fill;
   overflow: visible;
 }
@@ -2930,6 +2953,93 @@
   position: relative;
 }
 
+.image-34 {
+  max-width: none;
+  object-fit: fill;
+  overflow: auto;
+}
+
+.div-block-11 {
+  width: 75vw;
+}
+
+.slider-3 {
+  width: 750px;
+  height: 370px;
+}
+
+.container-12 {
+  max-height: 400px;
+  max-width: 800px;
+  object-fit: fill;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: stretch;
+  display: flex;
+}
+
+.slider-4 {
+  width: 800px;
+}
+
+.slide-2 {
+  background-image: url('../images/Slider-card-Bedside---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-3 {
+  position: relative;
+}
+
+.slider-5 {
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  align-self: center;
+  display: flex;
+}
+
+.slide-4 {
+  background-image: url('../images/Slider-card-Bedside---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-5 {
+  background-image: url('../images/Slider-card-Videos---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-6 {
+  background-image: url('../images/Slider-card-Contactless---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-7 {
+  background-image: url('../images/Slider-card-Estimates---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-8 {
+  background-image: url('../images/Slider-card-Coming-Next---desktop.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.image-35 {
+  max-width: none;
+}
+
 @media screen and (max-width: 991px) {
   .navbar-logo-left {
     padding-right: 0;
@@ -2967,6 +3077,10 @@
   .f2wf-columns-2 {
     flex-direction: column;
     align-items: center;
+  }
+
+  .navbar-no-shadow {
+    display: none;
   }
 
   .nav-menu-wrapper {
@@ -3062,6 +3176,10 @@
 @media screen and (max-width: 767px) {
   .hero-without-image {
     padding: 60px 15px;
+  }
+
+  .navbar-no-shadow {
+    display: none;
   }
 
   .navbar-brand-3 {
@@ -3201,17 +3319,108 @@
     max-width: none;
   }
 
+  .navbar-logo-left-2 {
+    justify-content: flex-start;
+  }
+
+  .navbar-logo-left-2.different-nav-bar {
+    width: 100vw;
+    max-width: 320px;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  .sh-logo-white {
+    width: 280px;
+  }
+
+  .sh-logo-white.og-top {
+    width: 230px;
+    justify-content: flex-start;
+    padding-left: 14px;
+    display: flex;
+  }
+
+  .small-container {
+    width: 300px;
+    justify-content: flex-start;
+    margin-top: 259px;
+  }
+
+  .small-container.other-small-container {
+    margin-top: 0;
+  }
+
+  .title-copy-goes-here-be-awesome {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+
+  .title-copy-goes-here-be-awesome-2 {
+    width: 200px;
+  }
+
+  .team-rectangles-2 {
+    width: 320px;
+    align-self: center;
+  }
+
   .who-is-shd {
     flex-direction: column;
   }
 
+  .section-title-2 {
+    width: 300px;
+  }
+
+  .heading-2---sofia-pro-semi-bold {
+    text-align: center;
+  }
+
   .callout-text---sofia-pro-light {
     width: 100%;
+    text-align: center;
+  }
+
+  .f2wf-columns-2 {
+    width: 280px;
+    height: 230px;
   }
 
   .vectors-wrapper {
-    width: 100%;
+    width: 280px;
+    max-width: 280px;
     flex-direction: row;
+    padding-top: 40px;
+    overflow: visible;
+  }
+
+  .section-title-3 {
+    width: 300px;
+    text-align: center;
+    align-items: flex-end;
+  }
+
+  .heading-2---sofia-pro-semi-bold-2 {
+    text-align: center;
+    align-self: flex-start;
+  }
+
+  .callout-text---sofia-pro-light-2 {
+    width: 100%;
+    text-align: center;
+    align-self: flex-start;
+  }
+
+  .callout-text---sofia-pro-light-3 {
+    width: 280px;
+  }
+
+  .navbar-no-shadow {
+    width: 300px;
+    display: none;
+    overflow: visible;
   }
 
   .nav-menu {
@@ -3222,16 +3431,89 @@
     width: auto;
   }
 
+  .hero-heading-left-2 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .hero-heading-left-2.scout-top {
+    width: 290px;
+    margin-top: 80px;
+  }
+
+  .f2wf-columns-3 {
+    width: 270px;
+  }
+
+  .frame-48096244 {
+    width: 300px;
+    height: auto;
+  }
+
+  .text-13 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .text-14 {
+    text-align: center;
+  }
+
+  .frame-48096210 {
+    align-items: center;
+  }
+
+  .frame-48096229 {
+    width: 300px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .headings-headline-3 {
+    text-align: left;
+  }
+
+  .column-3 {
+    width: 320px;
+  }
+
   .vectors-wrapper-2 {
+    width: 310px;
+    height: 280px;
     flex: 0 auto;
+  }
+
+  .vectors-wrapper-2.scput-phone {
+    margin-left: 10px;
+  }
+
+  .frame-48096265 {
+    width: 300px;
+    margin-top: 70px;
+  }
+
+  .frame-48096246 {
+    width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .headings-headline-4 {
+    font-size: 18px;
   }
 
   .container-8 {
     max-width: none;
+    justify-content: center;
+    display: flex;
   }
 
   .gallery-wrapper {
     grid-template-columns: 1fr;
+  }
+
+  .footer-subscribe {
+    justify-content: center;
+    display: flex;
   }
 
   .footer-form-two {
@@ -3273,8 +3555,297 @@
     right: -20px;
   }
 
+  .frame-2857201, .mho-header {
+    width: 300px;
+  }
+
+  .frame-cc-title--1 {
+    width: 294px;
+  }
+
+  .text-18 {
+    font-size: 26px;
+  }
+
+  .text-19 {
+    font-size: 20px;
+  }
+
+  .mho-ctas {
+    margin-top: -40px;
+  }
+
+  .btn-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+  }
+
+  .text-block {
+    width: 300px;
+    font-size: 24px;
+  }
+
+  .error-f5154994-eda7-b8d9-fda7-fd9484c95425 {
+    width: 310px;
+    font-size: 20px;
+  }
+
+  .schedule-in-person-appointments-schedule-video-visits-message-to-your-doctor-s-office-renew-your-prescriptions-pay-a-bill-check-your-symptoms-find-an-urgent-care-clinic-find-a-walk-in-care-clinic-see-your-test-results {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .care-companion-auto-layout {
+    width: 300px;
+    margin-top: 12px;
+  }
+
+  .text-27 {
+    width: 300px;
+    font-size: 26px;
+  }
+
+  .description-stats {
+    width: 320px;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+  .text-28 {
+    width: 300px;
+    text-align: center;
+  }
+
+  .stats {
+    text-align: center;
+  }
+
+  .frame-48096274 {
+    align-items: center;
+  }
+
+  .text-30 {
+    text-align: center;
+  }
+
+  .text-31 {
+    width: 300px;
+    margin-top: 364px;
+  }
+
+  .timelinephone {
+    width: 300px;
+    height: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .timeline-1 {
+    width: 300px;
+    height: 400px;
+    max-width: none;
+    object-fit: contain;
+  }
+
+  .pregnancy-info-1 {
+    position: static;
+  }
+
+  .frame-48096276 {
+    flex-wrap: nowrap;
+    align-content: stretch;
+  }
+
+  .new-baby-stuff {
+    width: 320px;
+    flex-wrap: wrap;
+  }
+
+  .frame-48096275 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .new-baby-description {
+    width: 300px;
+  }
+
+  .text-32 {
+    text-align: center;
+  }
+
+  .text-33 {
+    font-size: 26px;
+  }
+
+  .ambulatory-expansion-blueprint-auto-layout {
+    height: auto;
+    padding-bottom: 107px;
+  }
+
+  .mho-header-2.for-aeb {
+    width: 320px;
+    max-width: none;
+  }
+
+  .frame-48096287 {
+    width: 300px;
+  }
+
+  .text-34 {
+    font-size: 22px;
+  }
+
+  .frame-48096277 {
+    width: 300px;
+  }
+
+  .error-27e9bc47-6a16-e425-6951-9481f3da2308 {
+    font-size: 23px;
+  }
+
+  .frame-2857270 {
+    width: 300px;
+  }
+
+  .vectors-wrapper-5 {
+    width: 310px;
+    height: 390px;
+    margin-top: -40px;
+  }
+
+  .text-35 {
+    width: 280px;
+  }
+
+  .frame-48096288 {
+    width: 320px;
+    max-width: none;
+    flex-wrap: wrap;
+    margin-top: -50px;
+  }
+
+  .screen-shot-2023-02-03-at-2-13 {
+    width: 300px;
+    height: 200px;
+    max-width: none;
+  }
+
+  .text-36 {
+    width: 300px;
+    max-width: none;
+    font-size: 23px;
+  }
+
+  .mho-ctas-2.aeb-container {
+    width: 320px;
+    max-width: none;
+  }
+
+  .human-centered-design-is-an-approach-to-problem-solving-that-develops-solutions-by-involving-the-human-perspective-in-all-steps-of-the-process-0 {
+    font-size: 25px;
+  }
+
+  .human-centered-design-is-an-approach-to-problem-solving-that-develops-solutions-by-involving-the-human-perspective-in-all-steps-of-the-process-1 {
+    font-size: 23px;
+  }
+
+  .image-24 {
+    width: 310px;
+    height: auto;
+    max-width: none;
+    align-self: auto;
+    margin-left: -55px;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .image-25 {
+    width: 130px;
+    max-width: none;
+    margin-top: -43px;
+    margin-left: 117px;
+    margin-right: 27px;
+    position: static;
+  }
+
   .container-11 {
     max-width: none;
+  }
+
+  .cc-cta-button.another-link {
+    text-align: center;
+    margin-top: -44px;
+    margin-bottom: 39px;
+    font-size: 14px;
+  }
+
+  .div-block-4 {
+    width: 300px;
+    padding-top: 53px;
+  }
+
+  .image-28 {
+    width: 280px;
+  }
+
+  .image-29 {
+    margin-top: 0;
+    margin-bottom: -75px;
+  }
+
+  .image-30 {
+    width: 100%;
+  }
+
+  .div-block-8 {
+    margin-bottom: 0;
+  }
+
+  .div-block-10 {
+    width: 100%;
+    max-width: 320vw;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    overflow: visible;
+  }
+
+  .image-33 {
+    width: 100px;
+  }
+
+  .slider-5 {
+    width: 320px;
+    height: 218px;
+    flex-wrap: nowrap;
+    flex: 0 auto;
+    justify-content: center;
+  }
+
+  .image-35 {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .menu-button-2 {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .left-arrow, .right-arrow {
+    display: none;
+  }
+
+  .slide-nav {
+    align-self: auto;
+  }
+
+  .div-block-12 {
+    width: 300px;
   }
 }
 
