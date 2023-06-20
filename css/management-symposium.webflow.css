@@ -2574,7 +2574,7 @@
 }
 
 .error-27e9bc47-6a16-e425-6951-9481f3da2308 {
-  color: #54585a;
+  color: #68478d;
   text-align: center;
   font-size: 25px;
   font-weight: 400;
@@ -2626,15 +2626,15 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 16px;
+  margin-top: 30px;
   margin-bottom: 12px;
   padding: 8px;
   display: flex;
 }
 
 .text-35 {
-  max-width: 393px;
-  color: #54585a;
+  max-width: 450px;
+  color: #68478d;
   text-align: center;
   align-self: center;
   font-size: 18px;
@@ -2657,10 +2657,11 @@
 .screen-shot-2023-02-03-at-2-13 {
   object-fit: cover;
   border: 14.1017px rgba(255, 255, 255, 0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .text-36 {
-  max-width: 378px;
+  max-width: 410px;
   color: #68478d;
   align-self: center;
   font-size: 25px;
@@ -2681,7 +2682,7 @@
 }
 
 .human-centered-design-is-an-approach-to-problem-solving-that-develops-solutions-by-involving-the-human-perspective-in-all-steps-of-the-process-0 {
-  color: #54585a;
+  color: #68478d;
   text-align: center;
   font-size: 25px;
   font-weight: 600;
@@ -2689,11 +2690,11 @@
 }
 
 .human-centered-design-is-an-approach-to-problem-solving-that-develops-solutions-by-involving-the-human-perspective-in-all-steps-of-the-process-1 {
-  color: #54585a;
+  color: #68478d;
   text-align: center;
   font-size: 25px;
   font-weight: 400;
-  line-height: 128.2%;
+  line-height: 130%;
 }
 
 .image-24 {
@@ -2708,6 +2709,7 @@
   bottom: -5%;
   left: 13%;
   right: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .photo-booth {
